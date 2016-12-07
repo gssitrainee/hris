@@ -1,0 +1,131 @@
+#editProfileBody{
+	background-image: url("http://www.publicdomainpictures.net/pictures/130000/nahled/fine-blue-background-pattern.jpg");
+	background-repeat: repeat;
+	width: 100%;
+	height: 100%;
+	align-item:center;
+	display: inline-flex;
+}
+span{
+	width: 200px;
+	display: inline-block;
+}
+input{
+	font-size: 15px;
+	padding-left: 15px;
+}
+input:hover, input:focus, textarea:hover, textarea:focus{
+	-moz-box-shadow: 0px 2px 5px #37e674;
+	-webkit-box-shadow: 0px 2px 5px #37e674;
+	box-shadow: 0px 2px 5px #37e674;
+}
+textarea{
+	width: 270px;
+	height: 60px;
+	resize:none;
+	font-size: 15px;
+	padding-top: 17px;
+	padding-left: 15px;
+}
+#btnSave{
+	position: relative;
+	left: 300px;
+	width: 150px;
+	height: 60px;
+	letter-spacing: 3px;
+	font-weight: bolder;
+	font-size: 15px;
+	border: 1px solid #C0C0C0;
+	border-radius: 5px;
+	margin: 10px;
+}
+#btnSave:hover{
+	background-color: #EBEBFC;
+	border-radius: 5px;
+}
+
+	/*profile details*/
+
+#editProfileContainer{
+	margin:auto;
+	padding: 0px 30px 30px 30px;
+	font-family:sans-serif;
+	background-color: #FFFFFF;
+	width: 550px;
+	height: auto;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 2px 5px #aaf7c5;
+	-webkit-box-shadow: 0px 2px 5px #aaf7c5;
+	box-shadow: 0px 2px 5px #000000;
+}
+#editProfileContainer>h1{
+	text-align: center;
+}
+#editProfileDetails{
+	border:1px solid #C0C0C0;
+	border-radius: 5px;
+	padding: 10px 10px 10px 35px;
+}
+#txtFirstname, #txtMiddlename, #txtLastname, #txtContact, #txtEmailAdd{
+	height: 40px;
+	width: 270px;
+}
+#sltday{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+
+	/*education*/
+
+#editEducationContainer{
+	margin:auto;
+	padding: 0px 30px 30px 30px;
+	font-family:sans-serif;
+	background-color: #FFFFFF;
+	width: 550px;
+	height: auto;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 2px 5px #aaf7c5;
+	-webkit-box-shadow: 0px 2px 5px #aaf7c5;
+	box-shadow: 0px 2px 5px #000000;
+}
+#editEducationContainer>h1{
+	text-align: center;
+}
+#editEducationDetails{
+	border:1px solid #C0C0C0;
+	border-radius: 5px;
+	padding: 10px 10px 10px 35px;
+}
+#txtCourse, #txtCollege{
+	height: 40px;
+	width: 270px;
+}
+
+/*Experience*/
+
+#editExperienceContainer{
+	margin:auto;
+	padding: 0px 30px 30px 30px;
+	font-family:sans-serif;
+	background-color: #FFFFFF;
+	width: 550px;
+	height: auto;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 2px 5px #aaf7c5;
+	-webkit-box-shadow: 0px 2px 5px #aaf7c5;
+	box-shadow: 0px 2px 5px #000000;
+}
+#editExperienceContainer>h1{
+	text-align: center;
+}
+#editExperienceDetails{
+	border:1px solid #C0C0C0;
+	border-radius: 5px;
+	padding: 10px 10px 10px 35px;
+}
+#companyName, #companyAddress, #dateStart, #dateEnd{
+	height: 40px;
+	width: 270px;
+}
