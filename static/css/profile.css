@@ -1,6 +1,5 @@
 #profileBody{
-	background-image: url("http://www.publicdomainpictures.net/pictures/130000/nahled/fine-blue-background-pattern.jpg");
-	background-repeat: repeat;
+	background-color: #C0C0C0;
 	width: 100%;
 	height: auto;
 	align-item:center;
@@ -26,10 +25,6 @@
 	border:3px solid #fff;
 	box-shadow: 0px 2px 5px #000000
 }
-img:hover{
-	-webkit-transform:rotate(360deg);
-	transform:rotate(360deg);
-}
 span{
 	width: 200px;
 	display: inline-block;
@@ -45,6 +40,7 @@ span{
 	border: 1px solid #C0C0C0;
 	border-radius: 5px;
 	margin: 10px;
+	text-transform: uppercase;
 }
 #btnEdit:hover{
 	background-color: #EBEBFC;
@@ -55,7 +51,7 @@ span{
 	display: inline-flex;
 	justify-content:center;
 	margin-top: 20px;
-	background-color: #C0C0C0;
+	background-color: #17216E;
 	margin-bottom: 20px;
 }
 #imgSkill, #imgExperience, #imgEducation{
@@ -115,6 +111,25 @@ span{
 	border-radius: 5px;
 }
 #experienceDetails{
+	border:1px solid #C0C0C0;
+	border-radius: 5px;
+	padding: 10px 10px 10px 35px;
+	margin-top: -100px;
+}
+
+/*skill*/
+
+#skillContainer{
+	margin:auto;
+	margin-top:50px;
+	padding: 0px 30px 0px 30px;
+	font-family:sans-serif;
+	background-color: #FFFFFF;
+	width: 550px;
+	height: auto;
+	border-radius: 5px;
+}
+#skillDetails{
 	border:1px solid #C0C0C0;
 	border-radius: 5px;
 	padding: 10px 10px 10px 35px;
