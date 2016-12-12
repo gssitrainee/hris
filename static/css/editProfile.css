@@ -1,9 +1,9 @@
 #editProfileBody{
 	background-color: #C0C0C0;
 	width: 100%;
-	height: 100%;
+	height: auto;
 	align-item:center;
-	display: inline-flex;
+	display: inline-block;
 }
 span{
 	width: 200px;
@@ -97,7 +97,7 @@ textarea{
 	border-radius: 5px;
 	padding: 10px 10px 10px 35px;
 }
-#txtCourse, #txtCollege{
+#txtCourse, #txtCollege, #txtHighSchool, #txtElementary, #txtAchievementDateCollege, #txtAchievementDateHighSchool, #txtAchievementDateElementary{
 	height: 40px;
 	width: 270px;
 }
@@ -149,4 +149,16 @@ textarea{
 	border:1px solid #C0C0C0;
 	border-radius: 5px;
 	padding: 10px 10px 10px 35px;
+}
+/*footer*/
+#footer{
+	text-align: center;
+	background-color: #092444;
+	height: 180px;
+	color: #909AA7;
+}
+#footer>p>a>img{
+	height: 60px;
+	width: 60px;
+	padding: 40px 40px 10px 40px;
 }
