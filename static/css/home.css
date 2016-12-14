@@ -1,0 +1,148 @@
+#menuContainer{
+	height: 80px;
+	width: auto;
+	background-color: #3E3436;
+	text-align: center;
+	padding: 10px;
+
+}
+#menu li{
+	list-style: none;
+}
+#menu>#menuInside>li>{
+	font-size: 20px;
+	color: #000;
+
+}
+#menu>#menuInside>li{
+	float: left;
+	display: inline-block;
+	padding: 18px;
+
+}
+#sub-menu{
+	visibility: hidden;
+}
+#menu li:hover #sub-menu{
+	visibility: visible;
+}
+#sub-menu li ul{
+	visibility: hidden;
+}
+#sub-menu li:hover ul{
+	visibility: visible;
+}
+#sub-menu li ul{
+	display: inline-block;
+
+}
+#sub-menu li ul li{
+	padding: 10px;
+}
+#menu li:hover{
+	background: #c0c0c0;
+}
+#sub-menu li:hover{
+	background: #3e3436;
+}
+#sub-menu li ul li:hover{
+	background: #fff;
+}
+
+/*#homeBodyContainer{
+	background: #bf5c71 url('body-bg.jpg')
+}
+#menuInside:after{
+	display: block;
+	clear: both;
+}
+
+
+menu outline
+
+
+#menuContainer{
+	width: 100%;
+	background: #3e3436;
+}
+#menu{
+	width: 1000px;
+	margin: 0px auto;
+}
+#menu li{
+	margin:0px;
+	list-style: none;
+	font-family: 'Ek mukta';
+}
+#menu a{
+	transition:all linear 0.15s;
+	color: #919191;
+}
+#menu li:hover>a{
+	color: #be5b70;
+}
+#menu #arrow{
+	font-size: 11px;
+	line-height: 0%;
+}
+
+
+
+top menu
+
+
+
+
+#menu>ul>li{
+	float: left;
+	display: inline-block;
+	position: relative;
+	font-size: 19px
+}
+#menu>ul>li>a{
+	padding: 10px 40px;
+	display: inline-block;
+	text-shadow:0px 1px 0px rgba(0,0,0,0,4);
+}
+#menu>ul>li:hover{
+	background: #2e2728;
+}
+
+
+
+bottom menu
+
+
+
+#sub-menu li ul{
+	visibility: hidden;
+}
+#sub-menu li:hover ul{
+	visibility: visible;
+}
+
+#menu li:hover #sub-menu{
+	visibility: visible;
+}
+#sub-menu{
+	width: 160%;
+	padding: 5px 0px;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	visibility: hidden;
+	transition:opacity linear 0.15s;
+	box-shadow: 0px 2px 3px rgba(0,0,0,0,2);
+	background: #2e2728;
+}
+#sub-menu li{
+	display: block;
+	font-size: 16px;
+}
+#sub-menu li a{
+	padding: 10px 30px;
+	display: block;
+}
+#sub-menu li a:hover, #sub-menu{
+	background: #3e3436;
+}*/

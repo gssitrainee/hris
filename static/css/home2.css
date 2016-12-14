@@ -1,0 +1,118 @@
+#homeContainer{
+	background-color: #333;
+	margin: 0px;
+	height: auto;
+	display:flex;
+/*	margin: 0;
+	padding: 0;
+	font-size: 15px;*/
+}
+#homeLogo{
+	height: 160px;
+	width: auto;
+}
+#nameContainer {
+	color: #AAA;
+}
+#nameContainer>p{
+	position: relative;
+	left: 1000px;
+	top: -32px;
+	padding-left: 20px;
+}
+#nameContainer>img{
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	position: relative;
+	left: 730px;
+	top: 20px;
+}
+#nameContainer>input{
+	position: relative;
+	left: 700px;
+	top: 10px;
+	height: 40px;
+	padding: 5px;
+}
+
+
+/*menu*/
+#menu{
+	position: relative;
+	right: 230px;
+	top: 9px;
+}
+#menu ul{
+	margin: 0;
+	padding: 0;
+
+}
+#menu ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+#menu > ul > li {
+    color: #AAA;
+    line-height: 40px;
+    padding: 18px;
+    text-decoration: none;
+}
+#menu li > #subMenu1 li{
+	color: #FFF;
+	display: block;
+	line-height: 40px;
+	text-decoration: none;
+	padding: 7px 30px 7px 30px;
+}
+#menu li:hover{
+	/*background-color: #666;*/
+}
+#subMenu1{
+	visibility: hidden;
+	position: absolute;
+	display: block;
+	padding: 10px 10px 10px 10px;
+}
+#menu li:hover > #subMenu1{
+	visibility: visible;
+	background-color: #222;
+}
+#menu li > ul li ul{
+	display: none;
+	background-color: #888;
+
+}
+#menu li > #subMenu1 > li:hover > ul{
+	position: absolute;
+	display: block;
+}
+#menu li > #subMenu1 > li > ul{
+	padding: 10px 10px 10px 10px;
+	margin-left: 100px;
+	margin-top: -33px;
+}
+
+/*body*/
+#bodyContainer{
+	width: auto;
+	height: 100%;
+	background-color: #000;
+}
+
+/*footer*/
+
+#footerContainer{
+	width: auto;
+	height: 200px;
+	background-color: #092444;
+	margin-top: -18px;
+	text-align: center;
+	color: #909AA7;
+}
+#footerContainer p a img{
+	width: 50px;
+	height: 50px;
+	padding: 40px
+
+}

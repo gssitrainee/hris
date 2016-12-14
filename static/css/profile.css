@@ -5,6 +5,9 @@
 	align-item:center;
 	display: inline-block;
 }
+#menuContainer{
+	margin: auto;
+}
 #menuContainer>ul>li{
 	float: left;
 	display: block;
