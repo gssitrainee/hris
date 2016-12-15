@@ -1,5 +1,9 @@
+body{
+	font-family: tahoma;
+	letter-spacing: 1px;
+}
 #homeContainer{
-	background-color: #333;
+	background-color: #bf5c71;
 	margin: 0px;
 	height: auto;
 	display:flex;
@@ -12,27 +16,31 @@
 	width: auto;
 }
 #nameContainer {
-	color: #AAA;
+	color: #fff;
 }
 #nameContainer>p{
 	position: relative;
-	left: 1000px;
+	left: 950px;
 	top: -32px;
 	padding-left: 20px;
+	font-size: 20px;
+	text-transform: uppercase;
 }
 #nameContainer>img{
 	border-radius: 50%;
-	height: 40px;
-	width: 40px;
+	height: 60px;
+	width: 60px;
 	position: relative;
-	left: 730px;
-	top: 20px;
+	left: 650px;
+	top: 40px;
 }
 #nameContainer>input{
 	position: relative;
-	left: 700px;
-	top: 10px;
+	left: 600px;
+	top: 20px;
 	height: 40px;
+	width:230px; 
+	border-radius: 5px;
 	padding: 5px;
 }
 
@@ -40,8 +48,8 @@
 /*menu*/
 #menu{
 	position: relative;
-	right: 230px;
-	top: 9px;
+	right: 320px;
+	top: 32px;
 }
 #menu ul{
 	margin: 0;
@@ -52,45 +60,60 @@
 	display: inline-block;
 	list-style-type: none;
 }
+#menu ul li:hover{
+	background-color: #AEA1A1;
+}
 #menu > ul > li {
-    color: #AAA;
+    color: #fff;
     line-height: 40px;
     padding: 18px;
     text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 #menu li > #subMenu1 li{
-	color: #FFF;
+	color: #6b2525;;
 	display: block;
 	line-height: 40px;
 	text-decoration: none;
 	padding: 7px 30px 7px 30px;
+	background-color: #dbc0c0;
+	width: 90px;
 }
-#menu li:hover{
-	/*background-color: #666;*/
+#menu li > #subMenu2 li{
+	color: #6b2525;;
+	display: block;
+	line-height: 40px;
+	text-decoration: none;
+	padding: 7px 30px 7px 30px;
+	width: 360px;
+	background-color: #dbc0c0;
 }
 #subMenu1{
 	visibility: hidden;
 	position: absolute;
 	display: block;
 	padding: 10px 10px 10px 10px;
+	left: 100px;
+}
+#subMenu2{
+	visibility: hidden;
+	position: absolute;
+	display: block;
+	padding: 10px 10px 10px 10px;
+	left: 258px
 }
 #menu li:hover > #subMenu1{
 	visibility: visible;
-	background-color: #222;
 }
-#menu li > ul li ul{
-	display: none;
-	background-color: #888;
-
+#menu li:hover > #subMenu2{
+	visibility: visible;
 }
-#menu li > #subMenu1 > li:hover > ul{
-	position: absolute;
-	display: block;
+#menu li > #subMenu1 li:hover{
+	background-color: #AEA1A1;
 }
-#menu li > #subMenu1 > li > ul{
-	padding: 10px 10px 10px 10px;
-	margin-left: 100px;
-	margin-top: -33px;
+#menu li > #subMenu2 li:hover{
+	background-color: #AEA1A1;
 }
 
 /*body*/
