@@ -162,3 +162,129 @@ textarea{
 	width: 60px;
 	padding: 40px 40px 10px 40px;
 }
+
+/*menu*/
+#homeContainer{
+	background-color: #bf5c71;
+	margin: 0px;
+	height: auto;
+	display:flex;
+/*	margin: 0;
+	padding: 0;
+	font-size: 15px;*/
+}
+#homeLogo{
+	height: 160px;
+	width: auto;
+}
+#nameContainer {
+	color: #fff;
+}
+#nameContainer>p{
+	position: relative;
+	left: 950px;
+	top: -32px;
+	padding-left: 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+#nameContainer>img{
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	position: relative;
+	left: 650px;
+	top: 40px;
+}
+#nameContainer>input{
+	position: relative;
+	left: 600px;
+	top: 20px;
+	height: 40px;
+	width:230px; 
+	border-radius: 5px;
+	padding: 5px;
+}
+
+
+/*menu*/
+#menu{
+	position: relative;
+	right: 320px;
+	top: 32px;
+}
+#menu ul{
+	margin: 0;
+	padding: 0;
+
+}
+#menu ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+#menu ul li:hover{
+	background-color: #AEA1A1;
+}
+#menu > ul > li {
+    color: #fff;
+    line-height: 40px;
+    padding: 18px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#menu li > #subMenu1 li{
+	color: #6b2525;;
+	display: block;
+	line-height: 40px;
+	text-decoration: none;
+	padding: 7px 30px 7px 30px;
+	background-color: #dbc0c0;
+	width: 90px;
+}
+#menu li > #subMenu2 li{
+	color: #6b2525;;
+	display: block;
+	line-height: 40px;
+	text-decoration: none;
+	padding: 7px 30px 7px 30px;
+	width: 360px;
+	background-color: #dbc0c0;
+}
+#subMenu1{
+	visibility: hidden;
+	position: absolute;
+	display: block;
+	padding: 10px 10px 10px 10px;
+	left: 100px;
+}
+#subMenu2{
+	visibility: hidden;
+	position: absolute;
+	display: block;
+	padding: 10px 10px 10px 10px;
+	left: 258px
+}
+#menu li:hover > #subMenu1{
+	visibility: visible;
+}
+#menu li:hover > #subMenu2{
+	visibility: visible;
+}
+#menu li > #subMenu1 li:hover{
+	background-color: #AEA1A1;
+}
+#menu li > #subMenu2 li:hover{
+	background-color: #AEA1A1;
+}
+
+
+
+#logo{
+	background-color: #ccc;
+	height: 150px;
+	width: auto;
+}
+#logo>img{
+	width: auto;
+}

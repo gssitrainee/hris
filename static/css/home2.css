@@ -117,18 +117,32 @@ body{
 }
 
 /*body*/
-#bodyContainer{
+.bodyContainer{
 	width: auto;
-	height: 100%;
-	background-color: #000;
+	height: auto;
+	background-color: #fff;
+	display: inline-flex;
 }
+.wrapContainer{
+	border: 1px solid black;
+	display: inline-flex;
+	border-radius: 10px;
+}
+.organisationMenu{
+	height: 600px;
+	width: 400px;
+	border: 2px solid black;
+}
+
+
+
 
 /*footer*/
 
 #footerContainer{
 	width: auto;
 	height: 200px;
-	background-color: #092444;
+	background-color: #922038;
 	margin-top: -18px;
 	text-align: center;
 	color: #909AA7;
