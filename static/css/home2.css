@@ -117,21 +117,54 @@ body{
 }
 
 /*body*/
-.bodyContainer{
+#bodyContainer{
 	width: auto;
 	height: auto;
-	background-color: #fff;
-	display: inline-flex;
 }
 .wrapContainer{
 	border: 1px solid black;
 	display: inline-flex;
 	border-radius: 10px;
+	height: 50%;
+	width: 100%;
+}
+.wrapContainer img{
+	height: 100px;
+	width: 100px;
 }
 .organisationMenu{
-	height: 600px;
-	width: 400px;
-	border: 2px solid black;
+	border:1px solid black;
+	text-align: center;
+	position: relative;
+	top: 80px;
+	left: -30px;
+	margin-right: 10px;
+	height: 250px;
+	width: 350px;
+}
+#user{
+	background: #89C0C6;
+}
+#request{
+	background: #7981BC;
+}
+#hiring{
+	background: #00B48B;
+}
+#dashboard{
+	background: #D55F28;
+}
+#stubs{
+	background: #00B48B;
+}
+#rewards{
+	background: #70C5E9;
+}
+#benefits{
+	background: #FFBE24;
+}
+#retirements{
+	background: #70C5E9;
 }
 
 
