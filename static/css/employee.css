@@ -122,12 +122,40 @@ body{
 	width: auto;
 	height: auto;
 }
-#bodyContainer>div:last-child{
-	width: 100%;
+#tableCenter{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
 }
-#bodyContainer>div:last-child>th{
+#tableCenter tr:hover{
+	background-color: #ededed;
+}
+#bodyContainer>div:last-child table{
+	border-spacing:0;
+}
+
+#bodyContainer>div:last-child th{
 	background-color: #ccc;
-	margin:100px;
+	width: 250px;
+	height: 70px;
+	text-align: left;
+	padding-left: 10px;
+}
+#bodyContainer>div:last-child td{
+	padding-top: 0;
+	padding-left: 10px;
+	font-size: 20px;
+	width: 250px;
+	height: 70px;
+	border-top: 1px solid #d7d2d2;
+}
+#bodyContainer>div:last-child td img{
+	height: 150px;
+	padding: 8px;
+}
+button{
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
