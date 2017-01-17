@@ -130,18 +130,18 @@ body{
 #tableCenter tr:hover{
 	background-color: #ededed;
 }
-#bodyContainer>div:last-child table{
+#bodyContainer>div table{
 	border-spacing:0;
 }
 
-#bodyContainer>div:last-child th{
+#bodyContainer>div th{
 	background-color: #ccc;
 	width: 250px;
 	height: 70px;
 	text-align: left;
 	padding-left: 10px;
 }
-#bodyContainer>div:last-child td{
+#bodyContainer>div td{
 	padding-top: 0;
 	padding-left: 10px;
 	font-size: 20px;
@@ -149,15 +149,52 @@ body{
 	height: 70px;
 	border-top: 1px solid #d7d2d2;
 }
-#bodyContainer>div:last-child td img{
+#bodyContainer>div td img{
 	height: 150px;
 	padding: 8px;
 }
-button{
+#optionContainer{
 	margin-left: auto;
 	margin-right: auto;
+	width: 1570px;
+	height: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: inline-flex;
 }
-
+#selectContainer{
+	height: 60px;
+	width: 260px;
+	display: inline-flex;
+}
+#selectContainer>select{
+	height: 60px;
+	width: 260px;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 28px;
+	display: inline-block;
+}
+#optionContainer>select>option{
+	font-size: 24px;
+}
+#buttonContainer{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1570px;
+	height: 100px;
+}
+#buttonContainer>button{
+	float: right;
+	height: 60px;
+	width: 230;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+#optionContainer>div:first-child img{
+	height: 40px;
+	width: 35px;
+}
 
 
 
