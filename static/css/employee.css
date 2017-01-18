@@ -1,5 +1,6 @@
 body{
-	font-family: tahoma;
+	background-color: #c0c0c0;
+	font-family: sans-serif;
 	letter-spacing: 1px;
 }
 #homeContainer{
@@ -78,7 +79,7 @@ body{
 	text-decoration: none;
 	padding: 7px 30px 7px 30px;
 	background-color: #dbc0c0;
-	width: 90px;
+	width: 260px;
 }
 #menu li > #subMenu2 li{
 	color: #6b2525;;
@@ -86,7 +87,7 @@ body{
 	line-height: 40px;
 	text-decoration: none;
 	padding: 7px 30px 7px 30px;
-	width: 360px;
+	width: 260px;
 	background-color: #dbc0c0;
 }
 #subMenu1{

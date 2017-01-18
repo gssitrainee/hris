@@ -1,3 +1,8 @@
+body{
+	background-color: #c0c0c0;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+}
 #regBody{
 	background-color: #C0C0C0;
 	width: 100%;
@@ -241,7 +246,7 @@ input:hover, input:focus{
 	text-decoration: none;
 	padding: 7px 30px 7px 30px;
 	background-color: #dbc0c0;
-	width: 90px;
+	width: 260px;
 }
 #menu li > #subMenu2 li{
 	color: #6b2525;;
@@ -249,7 +254,7 @@ input:hover, input:focus{
 	line-height: 40px;
 	text-decoration: none;
 	padding: 7px 30px 7px 30px;
-	width: 360px;
+	width: 260px;
 	background-color: #dbc0c0;
 }
 #subMenu1{
