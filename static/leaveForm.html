@@ -1,0 +1,130 @@
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="css/leaveForm.css">
+</head>
+<body>
+	<div id="homeLogo">
+		<img src="images/logo.png">
+	</div>
+	<div id="homeContainer">
+		<div id="nameContainer">
+			<input type="text" placeholder="Search" >
+			<img src="images/patrick.png">
+			<p>Welcome! John Patrick Agduma</p>
+		</div>
+		<div>
+			<nav id="menu">
+			<ul>
+				<li>Home</li>
+				<li>
+					Employees
+					<ul id="subMenu1">
+						<li>Create</li>
+						<li>View</li>
+					</ul>
+				</li>
+				<li>
+					Form
+					<ul id="subMenu2">
+						<li>Leave</li>
+						<li>Overtime/Undertime</li>
+						<li>Field Work Pass</li>
+						<li>Personnel Action</li>
+						<li>Salary Adjustment</li>
+						<li>Personnel Pass</li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		</div>
+	</div>
+	<div id="bodyContainer">
+		<div id="leaveFormContainer">
+			<p>
+				<label for="sltCompany"><span>COMPANY:</span></label>
+				<select id="sltCompany">
+					<option selected="" disabled="" value="">COMPANY</option>
+					<option value="JGT">John Gold Travel</option>
+					<option value="CF">Cargo Forwarder</option>
+					<option value="GS">Golden Stargate</option>
+					<option value="CK">Cargo King</option>
+				</select>
+			</p>
+			<p>
+				<label for="sltDepartment"><span>DEPARTMENT:</span></label>
+				<select id="sltDepartment">
+					<option selected="" disabled="" value="">DEPARTMENT</option>
+					<option value="Admin">Admin</option>
+					<option value="Human Resource">Human Resource</option>
+					<option value="Audite">Audite</option>
+					<option value="Biyahe">Biyahe</option>
+					<option value="Travel Outlet">Travel Outlet</option>
+				</select>
+			</p>
+			<p>
+				<label for="sltTypeOfLeave"><span>TYPE OF LEAVE:</span></label>
+				<select id="sltTypeOfLeave">
+					<option selected="" disabled="" value="">DEPARTMENT</option>
+					<option value="Vacation">Vacation</option>
+					<option value="Sick">Sick</option>
+					<option value="Emergency">Emergency</option>
+					<option value="Authorize Absence">Authorize Absence</option>
+				</select>
+			</p>
+			<p>
+				<label for="txtName"><span>NAME:</span></label>
+				<input type="text" name="txtName" id="txtName">
+			</p>
+			<p>
+				<label for="dateFrom"><span>FROM:</span></label>
+				<input type="date" name="dateFrom" id="dateFrom">
+			</p>
+			<p>
+				<label for="dateTo"><span>TO:</span></label>
+				<input type="date" name="dateTo" id="dateTo">
+			</p>
+			<p>
+				<label for="taReasons"><span>REASONS:</span></label>
+				<textarea rows="3" cols="40" id="taReasons"></textarea>
+			</p>
+			<div>
+				<p>
+					<button id="btnSubmit">SUBMIT</button>
+				</p>
+				<p>
+					<button id="btnCancel">CANCEL</button>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="footerContainer">
+		<div>
+				<div>
+					<h3>CONTRIBUTION</h3>
+					<p>SSS</p>
+					<p>PHILHEALTH</p>
+					<p>PAG-IBIG</p>
+				</div>
+				<span class="spanLine">&nbsp;</span>
+				<div>
+					<h3>COMPANY</h3>
+					<p>ABOUT US</p>
+					<p>CONTACT</p>
+					<p>POLICY</p>
+				</div>
+				<span class="spanLine">&nbsp;</span>
+				<div>
+					<h3>SOCIAL MEDIA</h3>
+					<p>FACEBOOK</p>
+					<p>TWITTER</p>
+					<p>GMAIL</p>
+				</div>
+		</div>
+		<div>
+			<p>COPY RIGHT BY: JOHN PATRICK AGDUMA</p>
+		</div>
+	</div>
+
+</body>
+</html>
