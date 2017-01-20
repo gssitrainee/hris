@@ -157,9 +157,12 @@ body{
 	font-size: 15px;
 	padding-left: 15px;
 }
-#sltCompany, #sltDepartment, #sltTypeOfleave, #txtName, #dateFrom, #dateTo, #taReasons{
+#sltCompany, #sltDepartment, #txtName, #timeFrom, #timeTo, #taPurpose{
 	height: 40px;
 	width: 270px;
+}
+#checkOT, #checkUT{
+	margin-left: 50px;
 }
 #btn{
 	display: inline-flex;

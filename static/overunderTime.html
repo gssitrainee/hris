@@ -1,7 +1,7 @@
 <html>
 <head>
 	<title>Home</title>
-	<link rel="stylesheet" type="text/css" href="css/leaveForm.css">
+	<link rel="stylesheet" type="text/css" href="css/overunderTime.css">
 </head>
 <body>
 	<div id="homeLogo">
@@ -41,7 +41,7 @@
 	</div>
 	<div id="bodyContainer">
 		<div>
-			<h2>Leave Form Request</h2>
+			<h2>Overtime/Undertime</h2>
 			<div id="leaveFormContainer">
 				<p>
 					<label for="sltCompany"><span>COMPANY:</span></label>
@@ -65,30 +65,25 @@
 					</select>
 				</p>
 				<p>
-					<label for="sltTypeOfLeave"><span>TYPE OF LEAVE:</span></label>
-					<select id="sltTypeOfLeave">
-						<option selected="" disabled="" value="">DEPARTMENT</option>
-						<option value="Vacation">Vacation</option>
-						<option value="Sick">Sick</option>
-						<option value="Emergency">Emergency</option>
-						<option value="Authorize Absence">Authorize Absence</option>
-					</select>
-				</p>
-				<p>
 					<label for="txtName"><span>NAME:</span></label>
 					<input type="text" name="txtName" id="txtName">
 				</p>
 				<p>
-					<label for="dateFrom"><span>FROM:</span></label>
-					<input type="date" name="dateFrom" id="dateFrom">
+					<label for="checkRequestType"><span>REQUEST TYPE</span></label>
+					<input type="checkbox" name="OT" value="OT" id="checkOT">OT
+					<input type="checkbox" name="UT" value="UT" id="checkUT">UT
 				</p>
 				<p>
-					<label for="dateTo"><span>TO:</span></label>
-					<input type="date" name="dateTo" id="dateTo">
+					<label for="timeFrom"><span>FROM:</span></label>
+					<input type="time" name="timeFrom" id="timeFrom">
 				</p>
 				<p>
-					<label for="taReasons"><span>REASONS:</span></label>
-					<textarea rows="3" cols="40" id="taReasons"></textarea>
+					<label for="timeTo"><span>TO:</span></label>
+					<input type="time" name="timeTo" id="timeTo">
+				</p>
+				<p>
+					<label for="taPurpose"><span>PURPOSE:</span></label>
+					<textarea rows="3" cols="40" id="taPurpose"></textarea>
 				</p>
 				<div id="btn">
 					<p>
