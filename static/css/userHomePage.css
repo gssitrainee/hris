@@ -138,6 +138,7 @@ body{
 }
 .wrapContainer>div{
 	display: inline-flex;
+	margin-top: 20px;
 
 }
 .wrapContainer img{
@@ -147,7 +148,7 @@ body{
 	top: 25px;
 
 }
-.organisationMenu{
+.homePage{
 	border:1px solid #d2d2d2;
 	text-align: center;
 	margin-right: 40px;
@@ -157,47 +158,42 @@ body{
 	-moz-transition: all 0.3s;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
-	margin-left: 40px;
-	margin-top: 30px;
+	margin-left: 125px;
+	margin-top: 20px;
 }
-#user{
+#leave{
 	background: #89C0C6;
 }
-#request{
+#overtime{
 	background: #7981BC;
 }
-#hiring{
+#salary{
 	background: #00B48B;
 }
-#dashboard{
+#pagIbig{
 	background: #D55F28;
 }
-#stubs{
+#sss{
 	background: #00B48B;
 }
-#rewards{
+#view{
 	background: #70C5E9;
 }
-#benefits{
-	background: #FFBE24;
-}
-#retirements{
-	background: #70C5E9;
-}
-#user, #request, #hiring, #dashboard, #stubs, #rewards, #benefits, #retirements{
+
+#leave, #overtime, #salary, #pagIbig, #sss, #view{
 	height: 75px;
 }
 
 /*#user:hover, #request:hover, #hiring:hover, #dashboard:hover, #stubs:hover, #rewards:hover, #benefits:hover, #retirements:hover*/
-.organisationMenu:hover{
+.homePage:hover{
     -moz-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
 }
 .wrapContainer>h2{
-	margin-left: 3%;
+	margin-left: 10%;
 	color: #a18b8b;
-	margin-top: 50px;
+	margin-top: 40px;
 }
 
 
