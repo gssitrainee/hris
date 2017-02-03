@@ -127,7 +127,7 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	border: 1px solid #ccc;
-	width: 600px;
+	width: auto;
 	height: auto;
 	-moz-box-shadow: 0px 2px 5px #aaf7c5;
 	-webkit-box-shadow: 0px 2px 5px #aaf7c5;
@@ -139,56 +139,48 @@ body{
 #bodyContainer>div>h2{
 	text-align: center;
 }
-#createCompanyContainer{
+#salaryHistoryContainer{
 	height: auto;
-	width: 500px;
-	border: 1px solid black;
+	width: auto;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 20px;
 	border-radius: 5px;
 	margin-bottom: 50px;
 	margin-top: 50px;
-	border:1px solid #ccc;
+
 }
-#createCompanyContainer>p>label>span{
+#salaryHistoryContainer>p>label>span{
 	width: 200px;
 	display: inline-block;
 }
-#createCompanyContainer>input{
+#salaryHistoryContainer>input{
 	font-size: 15px;
 	padding-left: 15px;
 }
-#txtCompanyName, #txtCompanyCode{
-	height: 40px;
-	width: 270px;
-	border-radius: 7px;
-	border:1px solid #ccc;
+#salaryHistoryContainer>table{
+	margin-left: auto;
+	margin-right: auto;
 }
-#taAddress, #taRemarks{
-	height: 80;
-	resize: none;
-	width: 270px;
-	border-radius: 7px;
-	border:1px solid #ccc;
+#tableCenter tr>th:nth-child(1){
+	width: 175px;
+	text-align: left;
 }
-#createCompanyContainer>p:nth-child(3)>label>span, #createCompanyContainer>p:nth-child(4)>label>span{
-	position: relative;
-	top: -50px;
+#tableCenter tr>th:nth-child(2){
+	width: 275px;
+	text-align: left;
 }
-#btn{
-	display: inline-flex;
-	width: 320px;
-	padding-left: 125px;
-	margin-top: -20;
-	margin-bottom: 20;
+#tableCenter tr>th:nth-child(3){
+	width: 250px;
+	text-align: left;
 }
-#btnSubmit, #btnCancel{
-	margin-left: 40px;
-	width: 180px;
+#tableCenter tr>th:nth-child(4){
+	width: 350px;
+	text-align: left;
+}
+#salaryHistoryContainer>table td:last-child img{
 	height: 80px;
-	border-radius: 10%;
-	border:0;
+	padding: 8px;
 }
 input:hover, input:focus, textarea:hover, textarea:focus, select:hover, select:focus{
 /*	-moz-box-shadow: 0px 2px 5px #37e674;

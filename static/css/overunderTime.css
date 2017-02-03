@@ -5,11 +5,9 @@ body{
 #homeContainer{
 	background-color: #bf5c71;
 	margin: 0px;
-	height: auto;
+	height: 80px;
 	display:flex;
-/*	margin: 0;
-	padding: 0;
-	font-size: 15px;*/
+	width: auto;
 }
 #homeLogo{
 	height: 160px;
@@ -20,9 +18,8 @@ body{
 }
 #nameContainer>p{
 	position: relative;
-	left: 950px;
-	top: -32px;
-	padding-left: 20px;
+	left: 900px;
+	top: -62px;
 	font-size: 20px;
 	text-transform: uppercase;
 }
@@ -31,13 +28,13 @@ body{
 	height: 60px;
 	width: 60px;
 	position: relative;
-	left: 650px;
-	top: 40px;
+	left: 600px;
+	top: 10px;
 }
 #nameContainer>input{
 	position: relative;
-	left: 600px;
-	top: 20px;
+	left: 590px;
+	top: -10px;
 	height: 40px;
 	width:230px; 
 	border-radius: 5px;
@@ -46,10 +43,13 @@ body{
 
 
 /*menu*/
+#menuContainer{
+	
+}
 #menu{
 	position: relative;
 	right: 320px;
-	top: 32px;
+	top: 10px;
 }
 #menu ul{
 	margin: 0;
@@ -66,7 +66,7 @@ body{
 #menu > ul > li {
     color: #fff;
     line-height: 40px;
-    padding: 18px;
+    padding: 15px;
     text-decoration: none;
     font-size: 20px;
     text-transform: uppercase;
@@ -88,20 +88,21 @@ body{
 	padding: 7px 30px 7px 30px;
 	width: 260px;
 	background-color: #dbc0c0;
+	margin-left: 10px;
 }
 #subMenu1{
 	visibility: hidden;
 	position: absolute;
 	display: block;
 	padding: 10px 10px 10px 10px;
-	left: 105px;
+	left: 100px;
 }
 #subMenu2{
 	visibility: hidden;
 	position: absolute;
 	display: block;
 	padding: 10px 10px 10px 10px;
-	left: 280px;
+	left: 258px;
 	z-index: 1;
 }
 #menu li:hover > #subMenu1{
@@ -194,7 +195,7 @@ input:hover, input:focus, textarea:hover, textarea:focus, select:hover, select:f
 }
 #footerContainer>div:first-child{
 	display: inline-flex;
-	margin: 0 150px 0 150px;
+	width: 100%;
 }
 #footerContainer>div:first-child>div{
 	text-align: left;
