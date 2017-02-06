@@ -127,7 +127,7 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	border: 1px solid #ccc;
-	width: 600px;
+	width: 700px;
 	height: auto;
 	-moz-box-shadow: 0px 2px 5px #aaf7c5;
 	-webkit-box-shadow: 0px 2px 5px #aaf7c5;
@@ -141,7 +141,7 @@ body{
 }
 #displayDepartmentContainer{
 	height: auto;
-	width: 500px;
+	width: 600px;
 	border: 1px solid black;
 	margin-left: auto;
 	margin-right: auto;
@@ -162,16 +162,19 @@ body{
 #btn{
 	display: inline-flex;
 	width: 320px;
-	padding-left: 125px;
+	padding-left: 45px;
 	margin-top: -20;
 	margin-bottom: 20;
 }
-#btnSubmit, #btnCancel{
-	margin-left: 40px;
+#btnChange, #btnDeactive{
+	margin-left: 35px;
 	width: 180px;
 	height: 80px;
 	border-radius: 10%;
 	border:0;
+}
+#imgHome, #imgList{
+	margin: 15px;
 }
 input:hover, input:focus, textarea:hover, textarea:focus, select:hover, select:focus{
 /*	-moz-box-shadow: 0px 2px 5px #37e674;

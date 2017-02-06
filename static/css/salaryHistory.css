@@ -123,7 +123,21 @@ body{
 	width: auto;
 	height: auto;
 }
-#bodyContainer>div{
+#bodyContainer>div:first-child{
+	margin-top: 50px;
+	display: inline-flex;
+	width: 100%;
+	height: auto;
+}
+#bodyContainer>div:first-child p{
+	margin:auto;
+}
+#bodyContainer>div:first-child p>label, #bodyContainer>div:first-child p>input{
+	height: 40px;
+	width: 240px;
+	font-size: 25px;
+}
+#bodyContainer>div:last-child{
 	margin-left: auto;
 	margin-right: auto;
 	border: 1px solid #ccc;
@@ -139,6 +153,7 @@ body{
 #bodyContainer>div>h2{
 	text-align: center;
 }
+
 #salaryHistoryContainer{
 	height: auto;
 	width: auto;
