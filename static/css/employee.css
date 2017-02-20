@@ -133,6 +133,14 @@ body{
 #tableCenter tr:hover{
 	background-color: #ededed;
 }
+#bodyContainer>div{
+	padding: 0px 10px 0px 10px;
+	border: 1px solid #ccc;
+	-moz-box-shadow: 0px 2px 5px #aaf7c5;
+	-webkit-box-shadow: 0px 2px 5px #aaf7c5;
+	box-shadow: 0px 0px 0px 3px #c6c6c6;
+	margin: 50px;
+}
 #bodyContainer>div table{
 	border-spacing:0;
 }
@@ -157,9 +165,9 @@ body{
 	padding: 8px;
 }
 #optionContainer{
-	margin-left: 170px;
+	margin-left: 70px;
 	margin-right: auto;
-	width: 1570px;
+	width: auto;
 	height: 100px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -167,7 +175,7 @@ body{
 }
 #selectContainer{
 	height: 60px;
-	width: 960px;
+	width: auto;
 	display: inline-flex;
 }
 #selectContainer>select:first-child{
@@ -189,18 +197,25 @@ body{
 #optionContainer>select>option{
 	font-size: 24px;
 }
-#buttonContainer{
-	margin-left: auto;
-	margin-right: auto;
-	width: 1570px;
-	height: 100px;
+#btn{
+	display: inline-flex;
+	width: auto;
+	padding-left: 120px;
+	margin-top: -20;
+	margin-bottom: 20;
 }
-#buttonContainer>button{
-	float: right;
-	height: 60px;
-	width: 230;
-	margin-top: 20px;
-	margin-right: 20px;
+#btnAddEmployee{
+	margin-left:910px;
+	margin-top: 40px;
+	width: 180px;
+	height: 80px;
+	border-radius: 10%;
+	border:0;
+}
+button:hover{
+/*	-moz-box-shadow: 0px 2px 5px #37e674;
+	-webkit-box-shadow: 0px 2px 5px #37e674;*/
+	box-shadow: 0px 2px 5px #908e8e;
 }
 #optionContainer>div:first-child img{
 	height: 60px;

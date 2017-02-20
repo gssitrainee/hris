@@ -1,5 +1,5 @@
 body{
-	background-color: #c0c0c0;
+	background-color: #fff;
 	font-family: sans-serif;
 	letter-spacing: 1px;
 }
@@ -44,12 +44,11 @@ body{
 }
 
 #editProfileBody{
-	background-color: #C0C0C0;
+	background-color: #fff;
 	width: 100%;
 	height: auto;
 	align-item:center;
 	display: inline-block;
-	margin-bottom: 50px;
 }
 span{
 	width: 200px;
@@ -80,6 +79,14 @@ textarea{
 	margin-bottom: 20;
 }
 #btnSave{
+	margin-left: 370px;
+	margin-top: 40px;
+	width: 180px;
+	height: 80px;
+	border-radius: 10%;
+	border:0;
+}
+#btnSaveProfile{
 	margin-left: 250px;
 	margin-top: 40px;
 	width: 180px;
@@ -108,9 +115,12 @@ button:hover{
 	width: 550px;
 	height: auto;
 	border-radius: 5px;
+	border: 1px solid #ccc;
 	-moz-box-shadow: 0px 2px 5px #aaf7c5;
 	-webkit-box-shadow: 0px 2px 5px #aaf7c5;
-	box-shadow: 0px 2px 5px #000000;
+	box-shadow: 0px 0px 0px 3px #c6c6c6;
+	margin-bottom: 50px;
+	margin-top: 50px;
 }
 #editProfileContainer>h1{
 	text-align: center;
@@ -141,9 +151,12 @@ button:hover{
 	width: 550px;
 	height: auto;
 	border-radius: 5px;
+	border: 1px solid #ccc;
 	-moz-box-shadow: 0px 2px 5px #aaf7c5;
 	-webkit-box-shadow: 0px 2px 5px #aaf7c5;
-	box-shadow: 0px 2px 5px #000000;
+	box-shadow: 0px 0px 0px 3px #c6c6c6;
+	margin-bottom: 50px;
+	margin-top: 50px;
 }
 #editEducationContainer>h1{
 	text-align: center;
@@ -169,9 +182,12 @@ button:hover{
 	width: 550px;
 	height: auto;
 	border-radius: 5px;
+	border: 1px solid #ccc;
 	-moz-box-shadow: 0px 2px 5px #aaf7c5;
 	-webkit-box-shadow: 0px 2px 5px #aaf7c5;
-	box-shadow: 0px 2px 5px #000000;
+	box-shadow: 0px 0px 0px 3px #c6c6c6;
+	margin-bottom: 50px;
+	margin-top: 50px;
 }
 #editExperienceContainer>h1{
 	text-align: center;
@@ -195,10 +211,12 @@ button:hover{
 	background-color: #FFFFFF;
 	width: 550px;
 	height: auto;
-	border-radius: 5px;
+	border: 1px solid #ccc;
 	-moz-box-shadow: 0px 2px 5px #aaf7c5;
 	-webkit-box-shadow: 0px 2px 5px #aaf7c5;
-	box-shadow: 0px 2px 5px #000000;
+	box-shadow: 0px 0px 0px 3px #c6c6c6;
+	margin-bottom: 50px;
+	margin-top: 50px;
 }
 #editSkillContainer>h1{
 	text-align: center;

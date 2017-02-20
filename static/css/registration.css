@@ -1,10 +1,10 @@
 body{
-	background-color: #c0c0c0;
+	background-color: #fff;
 	font-family: sans-serif;
 	letter-spacing: 1px;
 }
 #regBody{
-	background-color: #C0C0C0;
+	background-color: #fff;
 	width: 100%;
 	height: auto;
 	display: inline-block;
@@ -20,9 +20,10 @@ body{
 	width: 550px;
 	height: auto;
 	border-radius: 5px;
+	border: 1px solid #ccc;
 	-moz-box-shadow: 0px 2px 5px #aaf7c5;
 	-webkit-box-shadow: 0px 2px 5px #aaf7c5;
-	box-shadow: 0px 2px 5px #000000;
+	box-shadow: 0px 0px 0px 3px #c6c6c6;
 }
 #regContainer>h1{
 	text-align: center;
@@ -43,7 +44,7 @@ body{
 	letter-spacing: 5px;
 }
 #logo{
-	background-color: #ccc;
+	background-color: #fff;
 	height: 150px;
 	width: auto;
 }

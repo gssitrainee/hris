@@ -1,5 +1,5 @@
 body{
-	background-color: #c0c0c0;
+	background-color: #fff;
 	font-family: sans-serif;
 	letter-spacing: 1px;
 }
@@ -124,10 +124,12 @@ body{
 	margin: auto;
 	margin-top: 120px;
 	width: 1000px;
+	border: 1px solid #ccc;
 	background-color: #fff;
 	-moz-box-shadow: 0px 2px 5px #aaf7c5;
 	-webkit-box-shadow: 0px 2px 5px #aaf7c5;
-	box-shadow: 0px 2px 5px #000000;
+	box-shadow: 0px 0px 0px 3px #c6c6c6;
+	margin-bottom: 50px;
 }
 #mainContainer>a>img{
 	position: relative;
@@ -147,7 +149,7 @@ span{
 }
 #btn{
 	display: inline-flex;
-	width: 320px;
+	width: auto;
 	padding-left: 120px;
 	margin-top: -20;
 	margin-bottom: 20;
@@ -176,7 +178,6 @@ button:hover{
 	justify-content:center;
 	margin-top: 20px;
 	background-color: #17216E;
-	margin-bottom: 20px;
 }
 #imgSkill, #imgExperience, #imgEducation{
 	width: 100px;
