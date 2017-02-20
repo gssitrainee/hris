@@ -217,6 +217,15 @@ body{
 	display: inline-flex;
 	margin-top: 20px;
 }
+#bodyContainer>div tr:nth-child(even):hover,#bodyContainer>div tr:nth-child(odd):hover{
+	background-color: #ededed;
+}
+#bodyContainer>div tr:nth-child(even){
+	background-color: #e0e0e0;;
+}
+#bodyContainer>div tr:nth-child(odd){
+	background-color: #fff;
+}
 
 
 

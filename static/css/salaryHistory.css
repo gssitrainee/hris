@@ -186,10 +186,13 @@ body{
 #tableCenter tr>td{
 	padding-left: 30px;
 }
-#tableCenter tr:nth-child(even){
+#bodyContainer>div tr:nth-child(even):hover,#bodyContainer>div tr:nth-child(odd):hover{
+	background-color: #ededed;
+}
+#bodyContainer>div tr:nth-child(even){
 	background-color: #e0e0e0;
 }
-#tableCenter tr:nth-child(odd){
+#bodyContainer>div tr:nth-child(odd){
 	background-color: #fff;
 }
 #tableCenter tr>th:nth-child(1){
