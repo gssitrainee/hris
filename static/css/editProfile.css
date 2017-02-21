@@ -1,48 +1,12 @@
 body{
 	background-color: #fff;
-	font-family: sans-serif;
-	letter-spacing: 1px;
-}
-#homeContainer{
-	background-color: #bf5c71;
-	margin: 0px;
-	height: 50px;
-	display:flex;
-	width: auto;
+	font-family     : sans-serif;
+	letter-spacing  : 1px;
 }
 #homeLogo{
 	height: 160px;
-	width: auto;
+	width : auto;
 }
-#nameContainer {
-	display: inline-flex;
-	color: #fff;
-	margin-left: 200px;
-	width: auto;
-}
-#nameContainer>p{
-	font-size: 15px;
-	text-transform: uppercase;
-	margin: 17px 30px 17px 30px;
-}
-#nameContainer>img{
-	border-radius: 50%;
-	height: 40px;
-	width: 40px;
-	margin-left: 60px;
-	margin-top: 5px;
-
-}
-#nameContainer>input{
-	height: 30px;
-	width:230px; 
-	border-radius: 5px;
-	padding: 5px;
-	margin-bottom: auto;
-	margin-top: auto;
-	margin-left: 50px;
-}
-
 #editProfileBody{
 	background-color: #fff;
 	width: 100%;
@@ -50,20 +14,39 @@ body{
 	align-item:center;
 	display: inline-block;
 }
-span{
-	width: 200px;
-	display: inline-block;
+#editProfileBody>div{
+	margin:auto;
+	padding: 0px 30px 30px 30px;
+	font-family:sans-serif;
+	background-color: #FFFFFF;
+	width: 550px;
+	height: auto;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	-moz-box-shadow: 0px 2px 5px #aaf7c5;
+	-webkit-box-shadow: 0px 2px 5px #aaf7c5;
+	box-shadow: 0px 0px 0px 3px #c6c6c6;
+	margin-bottom: 50px;
+	margin-top: 50px;
 }
-input{
+#editProfileBody>div>h1{
+	text-align: center;
+	padding-top: 20px;
+}
+#editProfileBody>div>div:nth-of-type(1){
+	border:1px solid #C0C0C0;
+	border-radius: 5px;
+	padding: 10px 10px 10px 35px;
+}
+#editProfileBody>div>div:nth-of-type(1) span{
+	width: 200px;
+	display: inline-flex;
+}
+#editProfileBody>div>div:nth-of-type(1) input{
 	font-size: 15px;
 	padding-left: 15px;
 }
-input:hover, input:focus, textarea:hover, textarea:focus{
-	-moz-box-shadow: 0px 2px 5px #37e674;
-	-webkit-box-shadow: 0px 2px 5px #37e674;
-	box-shadow: 0px 2px 5px #37e674;
-}
-textarea{
+#editProfileBody>div>div:nth-of-type(1) textarea{
 	width: 270px;
 	height: 60px;
 	resize:none;
@@ -71,22 +54,14 @@ textarea{
 	padding-top: 17px;
 	padding-left: 15px;
 }
-#btn{
+#editProfileBody>div>div:nth-of-type(2){
 	display: inline-flex;
 	width: 320px;
 	padding-left: 120px;
 	margin-top: -20;
 	margin-bottom: 20;
 }
-#btnSave{
-	margin-left: 370px;
-	margin-top: 40px;
-	width: 180px;
-	height: 80px;
-	border-radius: 10%;
-	border:0;
-}
-#btnSaveProfile{
+#editProfileBody>div>div:nth-of-type(2) button{
 	margin-left: 250px;
 	margin-top: 40px;
 	width: 180px;
@@ -100,37 +75,17 @@ input:hover, input:focus, textarea:hover, textarea:focus, select:hover, select:f
 	box-shadow: 0px 2px 5px #37e674;
 }
 button:hover{
-/*	-moz-box-shadow: 0px 2px 5px #37e674;
-	-webkit-box-shadow: 0px 2px 5px #37e674;*/
 	box-shadow: 0px 2px 5px #908e8e;
 }
+input:hover, input:focus, textarea:hover, textarea:focus{
+	-moz-box-shadow: 0px 2px 5px #37e674;
+	-webkit-box-shadow: 0px 2px 5px #37e674;
+	box-shadow: 0px 2px 5px #37e674;
+}
+
 
 	/*profile details*/
 
-#editProfileContainer{
-	margin:auto;
-	padding: 0px 30px 30px 30px;
-	font-family:sans-serif;
-	background-color: #FFFFFF;
-	width: 550px;
-	height: auto;
-	border-radius: 5px;
-	border: 1px solid #ccc;
-	-moz-box-shadow: 0px 2px 5px #aaf7c5;
-	-webkit-box-shadow: 0px 2px 5px #aaf7c5;
-	box-shadow: 0px 0px 0px 3px #c6c6c6;
-	margin-bottom: 50px;
-	margin-top: 50px;
-}
-#editProfileContainer>h1{
-	text-align: center;
-	padding-top: 20px;
-}
-#editProfileDetails{
-	border:1px solid #C0C0C0;
-	border-radius: 5px;
-	padding: 10px 10px 10px 35px;
-}
 #txtFirstname, #txtMiddlename, #txtLastname, #txtContact, #txtEmailAdd{
 	height: 40px;
 	width: 270px;
@@ -139,34 +94,8 @@ button:hover{
 	margin-left: 15px;
 	margin-right: 15px;
 }
-
-
 	/*education*/
 
-#editEducationContainer{
-	margin:auto;
-	padding: 0px 30px 30px 30px;
-	font-family:sans-serif;
-	background-color: #FFFFFF;
-	width: 550px;
-	height: auto;
-	border-radius: 5px;
-	border: 1px solid #ccc;
-	-moz-box-shadow: 0px 2px 5px #aaf7c5;
-	-webkit-box-shadow: 0px 2px 5px #aaf7c5;
-	box-shadow: 0px 0px 0px 3px #c6c6c6;
-	margin-bottom: 50px;
-	margin-top: 50px;
-}
-#editEducationContainer>h1{
-	text-align: center;
-	padding-top: 20px;
-}
-#editEducationDetails{
-	border:1px solid #C0C0C0;
-	border-radius: 5px;
-	padding: 10px 10px 10px 35px;
-}
 #txtCourse, #txtCollege, #txtHighSchool, #txtElementary, #txtAchievementDateCollege, #txtAchievementDateHighSchool, #txtAchievementDateElementary{
 	height: 40px;
 	width: 270px;
@@ -174,169 +103,9 @@ button:hover{
 
 /*Experience*/
 
-#editExperienceContainer{
-	margin:auto;
-	padding: 0px 30px 30px 30px;
-	font-family:sans-serif;
-	background-color: #FFFFFF;
-	width: 550px;
-	height: auto;
-	border-radius: 5px;
-	border: 1px solid #ccc;
-	-moz-box-shadow: 0px 2px 5px #aaf7c5;
-	-webkit-box-shadow: 0px 2px 5px #aaf7c5;
-	box-shadow: 0px 0px 0px 3px #c6c6c6;
-	margin-bottom: 50px;
-	margin-top: 50px;
-}
-#editExperienceContainer>h1{
-	text-align: center;
-	padding-top: 20px;
-}
-#editExperienceDetails{
-	border:1px solid #C0C0C0;
-	border-radius: 5px;
-	padding: 10px 10px 10px 35px;
-}
 #companyName, #companyAddress, #dateStart, #dateEnd{
 	height: 40px;
 	width: 270px;
 }
 
 /*skill*/
-#editSkillContainer{
-	margin:auto;
-	padding: 0px 30px 30px 30px;
-	font-family:sans-serif;
-	background-color: #FFFFFF;
-	width: 550px;
-	height: auto;
-	border: 1px solid #ccc;
-	-moz-box-shadow: 0px 2px 5px #aaf7c5;
-	-webkit-box-shadow: 0px 2px 5px #aaf7c5;
-	box-shadow: 0px 0px 0px 3px #c6c6c6;
-	margin-bottom: 50px;
-	margin-top: 50px;
-}
-#editSkillContainer>h1{
-	text-align: center;
-	padding-top: 20px;
-}
-#editSkillDetails{
-	border:1px solid #C0C0C0;
-	border-radius: 5px;
-	padding: 10px 10px 10px 35px;
-}
-/*footer*/
-#footerContainer{
-	width: auto;
-	height: auto;
-	background-color: #C8CDD4;
-	text-align: center;
-/*	margin-top: -18px;
-	text-align: center;*/
-	color: #727C8A;
-}
-#footerContainer>div:first-child{
-	display: inline-flex;
-	width: 100%;
-}
-#footerContainer>div:first-child>div{
-	text-align: left;
-	margin: 25 100px 25 150px;
-	height: 200px;
-	letter-spacing: 2px;
-	width: 200px;
-}
-.spanLine{
-	border-right: 1px solid #B5B6DB;
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-#footerContainer>div:last-child{
-	background-color: #8B929C;
-	height: 75px;
-	color: #d7d7d7;
-	text-align: center;
-}
-#footerContainer>div:last-child>p{
-	padding-top: 25px;
-}
-
-
-/*menu*/
-#menuContainer{
-	width: auto;
-	height: 20px;
-
-}
-#menu ul{
-	margin: 0;
-	padding: 0;
-
-}
-#menu ul li{
-	display: inline-block;
-	list-style-type: none;
-	font-size: 18px;
-}
-#menu ul li:hover{
-	background-color: #AEA1A1;
-}
-#menu > ul > li {
-    color: #fff;
-    line-height: 50px;
-    padding: 0px 15px 0px 15px;
-    text-decoration: none;
-    font-size: 20px;
-    text-transform: uppercase;
-}
-#menu li > #subMenu1 li{
-	color: #6b2525;;
-	display: block;
-	line-height: 40px;
-	text-decoration: none;
-	padding: 7px 30px 7px 30px;
-	background-color: #dbc0c0;
-	width: 260px;
-	margin-left: 7px;
-}
-#menu li > #subMenu2 li{
-	color: #6b2525;;
-	display: block;
-	line-height: 40px;
-	text-decoration: none;
-	padding: 7px 30px 7px 30px;
-	width: 260px;
-	background-color: #dbc0c0;
-	margin-left: 17px;
-}
-#subMenu1{
-	visibility: hidden;
-	position: absolute;
-	display: block;
-	padding: 10px 10px 10px 10px;
-	left: 100px;
-	margin-top: 10px
-}
-#subMenu2{
-	visibility: hidden;
-	position: absolute;
-	display: block;
-	padding: 10px 10px 10px 10px;
-	left: 258px;
-	z-index: 1;
-}
-#menu li:hover > #subMenu1{
-	visibility: visible;
-
-}
-#menu li:hover > #subMenu2{
-	visibility: visible;
-}
-#menu li > #subMenu1 li:hover{
-	background-color: #AEA1A1;
-}
-#menu li > #subMenu2 li:hover{
-	background-color: #AEA1A1;
-}
