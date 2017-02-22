@@ -1,128 +1,128 @@
 body{
-	font-family: sans-serif;
+	font-family   : sans-serif;
 	letter-spacing: 1px;
 }
 #homeLogo{
 	height: 160px;
-	width: auto;
+	width : auto;
 }
 
 /*body*/
 
 #bodyContainer{
-	width: auto;
+	width : auto;
 	height: auto;
 }
-#tableCenter{
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 10px;
-}
-#tableCenter tr:hover{
-	background-color: #ededed;
-}
 #bodyContainer>div{
-	padding: 0px 10px 0px 10px;
-	border: 1px solid #ccc;
-	-moz-box-shadow: 0px 2px 5px #aaf7c5;
+	padding           : 0px 10px 0px 10px;
+	border            : 1px solid #ccc;
+	-moz-box-shadow   : 0px 2px 5px #aaf7c5;
 	-webkit-box-shadow: 0px 2px 5px #aaf7c5;
-	box-shadow: 0px 0px 0px 3px #c6c6c6;
-	margin: 50px;
+	box-shadow        : 0px 0px 0px 3px #c6c6c6;
+	margin            : 50px;
 }
-#bodyContainer>div table{
-	border-spacing:0;
-}
-
-#bodyContainer>div th{
-	background-color: #ccc;
-	width: 250px;
-	height: 70px;
-	text-align: left;
-	padding-left: 10px;
-}
-#bodyContainer>div td{
-	padding-top: 0;
-	padding-left: 10px;
-	font-size: 20px;
-	width: 250px;
-	height: 70px;
-	border-top: 1px solid #d7d2d2;
-}
-#bodyContainer>div td img{
-	height: 150px;
-	padding: 8px;
-}
-#optionContainer{
-	margin-left: 70px;
-	margin-right: auto;
-	width: auto;
-	height: 100px;
-	margin-top: 20px;
+#bodyContainer>div>div:nth-of-type(1){
+	margin-left  : 70px;
+	margin-right : auto;
+	width        : auto;
+	height       : 100px;
+	margin-top   : 20px;
 	margin-bottom: 20px;
+	display      : inline-flex;
+}
+#bodyContainer>div>div:nth-of-type(1)>div:nth-of-type(1){
+	width     : 350px;
+	height    : 250px;
+	display   : inline-flex;
+	margin-top: 20px;
+}
+#bodyContainer>div>div:nth-of-type(1)>div:nth-of-type(1) img{
+	height: 60px;
+	width : 55px;
+}
+#bodyContainer>div>div:nth-of-type(1)>div:nth-of-type(1) p{
+	font-size  : 30px;
+	margin-left: 10px;
+	margin-top : 15;
+}
+#bodyContainer>div>div:nth-of-type(1)>div:nth-of-type(2){
+	height : 60px;
+	width  : auto;
 	display: inline-flex;
 }
-#selectContainer{
-	height: 60px;
-	width: auto;
-	display: inline-flex;
-}
-#selectContainer>select:first-child{
-	height: 60px;
-	width: 260px;
-	margin-top: 20px;
-	margin-left: 100px;
-	font-size: 28px;
+#bodyContainer>div>div:nth-of-type(1)>div:nth-of-type(2)>select:nth-of-type(1){
+	height      : 60px;
+	width       : 260px;
+	margin-top  : 20px;
+	margin-left : 100px;
+	font-size   : 28px;
 	padding-left: 15px;
 }
-#selectContainer>select:last-child{
-	height: 60px;
-	width: 260px;
-	margin-top: 20px;
-	margin-left: 100px;
-	font-size: 28px;
+#bodyContainer>div>div:nth-of-type(1)>div:nth-of-type(2)>select:nth-of-type(2){
+	height      : 60px;
+	width       : 260px;
+	margin-top  : 20px;
+	margin-left : 100px;
+	font-size   : 28px;
 	padding-left: 15px;
 }
-#optionContainer>select>option{
+#bodyContainer>div>div:nth-of-type(1)>div:nth-of-type(2) option{
 	font-size: 24px;
 }
-#btn{
-	display: inline-flex;
-	width: auto;
-	padding-left: 120px;
-	margin-top: -20;
-	margin-bottom: 20;
+#bodyContainer>div>div:nth-of-type(2) table{
+	margin-right: auto;
+	margin-left : auto;
+	margin-top  : 10px;
 }
-#btnAddEmployee{
-	margin-left:910px;
-	margin-top: 40px;
-	width: 180px;
-	height: 80px;
-	border-radius: 10%;
-	border:0;
+#bodyContainer>div>div:nth-of-type(2) table{
+	border-spacing:0;
 }
-#optionContainer>div:first-child img{
-	height: 60px;
-	width: 55px;
+#bodyContainer>div>div:nth-of-type(2)>table th{
+	background-color: #ccc;
+	width           : 250px;
+	height          : 70px;
+	text-align      : left;
+	padding-left    : 10px;
 }
-#optionContainer>div:first-child p{
-	font-size: 30px;
-	margin-left: 10px;
-	margin-top: 15;
+#bodyContainer>div>div:nth-of-type(2)>table td{
+	padding-top : 0;
+	padding-left: 10px;
+	font-size   : 20px;
+	width       : 250px;
+	height      : 70px;
+	border-top  : 1px solid #d7d2d2;
 }
-#optionContainer>div:first-child{
-	width: 350px;
-	height: 250px;
-	display: inline-flex;
-	margin-top: 20px;
-}
-#bodyContainer>div tr:nth-child(even):hover,#bodyContainer>div tr:nth-child(odd):hover{
+#bodyContainer>div>div:nth-of-type(2)>table tr:hover{
 	background-color: #ededed;
 }
-#bodyContainer>div tr:nth-child(even){
+#bodyContainer>div>div:nth-of-type(2)>table td img{
+	height : 150px;
+	padding: 8px;
+}
+#bodyContainer>div>div:nth-of-type(2)>table tr:nth-child(even):hover,
+#bodyContainer>div>div:nth-of-type(2)>table tr:nth-child(odd):hover{
+	background-color: #ededed;
+}
+#bodyContainer>div>div:nth-of-type(2)>table tr:nth-child(even){
 	background-color: #e0e0e0;;
 }
-#bodyContainer>div tr:nth-child(odd){
+#bodyContainer>div>div:nth-of-type(2)>table tr:nth-child(odd){
 	background-color: #fff;
+}
+#bodyContainer>div>div:nth-of-type(3){
+	display      : inline-flex;
+	width        : auto;
+	padding-left : 120px;
+	margin-top   : -20;
+	margin-bottom: 20;
+}
+#bodyContainer>div>div:nth-of-type(3) button{
+	margin-left  :910px;
+	margin-top   : 40px;
+	width        : 180px;
+	height       : 80px;
+	border-radius: 10%;
+	border       :0;
 }
 button:hover{
 	box-shadow: 0px 2px 5px #908e8e;
